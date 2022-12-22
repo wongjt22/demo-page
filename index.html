@@ -10,16 +10,17 @@
 <body>
   <main>
     <div class="intro">Demo Page</div>
-    <div class="tagline">HTML | CSS | JavaScript | MongoDB | JQuery </div>
-    <div class="icons">
-      <!-- icons here -->
-    </div>
+    <div class="tagline">HTML | CSS | JavaScript | MongoDB </div>
     <div class="videos">
       <!-- videos here -->
     </div>
     <div class="images">
       <!-- images here -->
     </div>
+    <form action="/routes/upload.js" method="POST" enctype="multipart/form-data">
+      <input type="file" name="file" />
+      <input type="submit" value="send" />
+    </form>
   </main>
   <script type="text/javascript" src="./index.js"></script>
 </body>
