@@ -1,0 +1,45 @@
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+main > .intro {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+main > .tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons i {
+	padding: 10px;
+}
+
+.icons a {
+  text-decoration: none;
+}
+
+main {
+	background: #AF3D4E;
+	color: #FAFAFA;
+}
+
+.icons a {
+	color: #FAFAFA;
+}
+
+.icons a svg path{
+	fill: #FAFAFA;
+}
