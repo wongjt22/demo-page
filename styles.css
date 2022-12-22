@@ -23,23 +23,7 @@ main > .tagline {
 	font-weight: 100;
 }
 
-.icons i {
-	padding: 10px;
-}
-
-.icons a {
-  text-decoration: none;
-}
-
 main {
 	background: #AF3D4E;
 	color: #FAFAFA;
-}
-
-.icons a {
-	color: #FAFAFA;
-}
-
-.icons a svg path{
-	fill: #FAFAFA;
 }
